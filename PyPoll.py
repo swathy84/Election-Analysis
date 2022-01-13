@@ -1,6 +1,9 @@
 #Add our dependencies. 
 
+#this will allow us to open the CSV files 
 import csv
+
+#this will allows us to create file paths across operating systems 
 import os
 
 
@@ -43,6 +46,7 @@ with open(file_to_load) as election_data:
 
     #Prints the header row 
     # print(headers)
+    #print(f' file_reader: {headers} '  )
 
     #print each row in the csv file .
     for row in file_reader:
