@@ -16,25 +16,25 @@ The following tasks included:
     5. Determine the winner of the election based on popular vote.
 
 
-The data is store in .csv file and it has ballot id ,name of the county and candidates.
+The data is stored in .csv file and it has ballot id ,name of the county and candidates.
 
 ### Initial Analysis 
 
-Using Python script , the initial analysis were made to retrieve total number of votes, list of candidates,total number of votes of each candidates,percentage of votes each candidate won and the winner of the election.
+Using Python script, the initial analysis were made to retrieve total number of votes, list of candidates,total number of votes of each candidates,percentage of votes each candidate won and the winner of the election.
 
-[PyPoll](PyPoll.py) 
+[PyPoll](PyPoll.py) -  python file created to do the initial analysis.
  
- attached is the image of  election results captured after the inital analysis made on election dataset. 
+Below is the image of  election results captured after the inital analysis made on election dataset. 
 
 ![main](Resources/election_results.png)
 
-## Eelection Audit Results 
+## Election Audit Results 
 
-After completing the initial analysis and retrived informaiton on candidates, additional audit were made on the election dataset to retrived the information for county which include  voter turn out for each county,percentage of votes from each county,the county with the highest turn out. 
+After completing the initial analysis and retrived informaiton on candidates, additional audits were made on the election dataset to retrive the information for county which included  voter turn out for each county,percentage of votes from each county,the county with the highest turn out. 
 
-[PyPollChallenge](PyPoll_Challenge.py)  
+[PyPollChallenge](PyPoll_Challenge.py)- python file created to do the additional audit.  
 
-attached is the image of the election results captured after the additional analysis made on election dataset.
+Below is the image of the election results captured after the additional analysis made on election dataset.
 
 ![main](Resources/election_results_challenge.png)
 
