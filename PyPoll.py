@@ -11,7 +11,7 @@ import os
 file_to_load = os.path.join("Resources","election_results.csv")
 
 # Assign a variable to save the file to a path. 
-file_to_save = os.path.join("analysis","election_analysis.txt")
+file_to_save = os.path.join("analysis","election_results.txt")
 
 #creating a total_votes variable to increment by 1 each time as the row been read.
 #initialize the total cote counter 
